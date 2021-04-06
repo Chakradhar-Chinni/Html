@@ -16,3 +16,9 @@ line10
 
 
 lines of git pull --commit:1
+
+lines of git pull --commit2
+lines of git pull --commit2
+
+lines of GIT pull --commit2
+lines of GIT pull --commit2

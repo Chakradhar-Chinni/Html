@@ -12,3 +12,7 @@ line8
 
 line9
 line10
+
+
+
+lines of git pull --commit:1

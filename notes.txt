@@ -140,4 +140,96 @@ creating tr with unique size
 favicon - to add logo on browser tab
 only in <head> tag
 
-HTML TAbles -> table headers
+-------------------------------------
+<!-- To align table headers -->
+Vertical and Horizontal
+<html> 
+	<head>
+		<style>
+		table,th,td{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		</style>
+	</head>
+
+	<body style="color:red;background-color:fdffb6;">
+		<table>
+			<tr>
+				<th></th>
+				<th>Day 1</th>
+				<th>Day 2</th>
+				<th>Day 3</th>
+				<th>Day 4</th>
+				<th>Day 5</th>
+			<tr>
+			<tr>
+				<th>Slot 1</th>
+				<td>12</td>
+				<td>13</td>
+				<td>12</td>
+				<td>13</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<th>Slot 2</th>
+				<td>12</td>
+				<td>13</td>
+				<td>12</td>
+				<td>13</td>
+				<td>15</td>
+			</tr>
+			<tr>
+				<th>Slot 3</th>
+				<td>12</td>
+				<td>13</td>
+				<td>12</td>
+				<td>13</td>
+				<td>15</td>
+			</tr>
+		</table>
+	</body>
+
+</html>
+-------------------------------------
+!
+
+-------------------------------------
+Using same Header for multiple columns -- Use colspan
+<html> 
+	<head>
+		<style>
+		table,td,th{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		</style>
+	</head>
+
+	<body style="color:red;background-color:fdffb6;">
+		<table>
+			<tr>
+				<th colspan="2">Name</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Jon</td>
+				<td>Snow</td>
+				<td>Fiction</td>
+			</tr>
+			<tr>
+				<td>Ygritte</td>
+				<td>Snow</td>
+				<td>Fiction</td>
+			</tr>
+		</table>
+
+	</body>
+
+</html>
+-------------------------------------
+
+
+
+
+

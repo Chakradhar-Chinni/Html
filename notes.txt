@@ -228,7 +228,42 @@ Using same Header for multiple columns -- Use colspan
 
 </html>
 -------------------------------------
+!
+-------------------------------------
+table name -- place  immediately after table tag with <cation>
+	<html> 
+	<head>
+		<style>
+		table,td,th{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		</style>
+	</head>
 
+	<body style="color:red;background-color:fdffb6;">
+		<table>
+		<caption>Information</caption>
+			<tr>
+				<th colspan="2">Name</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Jon</td>
+				<td>Snow</td>
+				<td>Fiction</td>
+			</tr>
+			<tr>
+				<td>Ygritte</td>
+				<td>Snow</td>
+				<td>Fiction</td>
+			</tr>
+		</table>
+
+	</body>
+
+</html>
+-------------------------------------
 
 
 
